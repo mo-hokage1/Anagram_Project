@@ -42,6 +42,5 @@ rl.on('close', () => {
   }
 
   writeStream.end(); // Close the writable stream after writing is complete
-  console.log('Anagram groups written to output.txt'); // Print a message to indicate completion
   console.log(output.join('\n')); // Print the output to the console
 });
